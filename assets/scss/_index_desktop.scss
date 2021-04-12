@@ -1,0 +1,108 @@
+#home {
+  
+  background-image: url("https://trendykits.com/wp-content/uploads/2020/09/Books-Thumbnail.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  .container {
+    height: 100vh;
+    @include flexbox(column, nowrap, space-between, stretch, stretch);
+  }
+}
+
+header {
+  @include flexbox(row, nowrap, space-between, center, center);
+  .logo {
+    .fas {
+      display: none;
+    }
+  }
+
+  nav {
+    ul {
+      list-style-type: none;
+      padding: 0px;
+      margin: 0px;
+    }
+
+    li {
+      display: inline-block;
+    }
+    a:hover {
+      color: red;
+  
+    }
+  }
+}
+
+.intro2 {
+  @include flexbox(column, nowrap, space-around, center , center);
+  
+}
+
+#section-two {
+ 
+  li {
+    list-style-type: none;
+    display: inline-block;
+  }
+
+  a {
+    color: rgb(252, 4, 4);
+    text-decoration: none;
+  }
+
+  
+}
+
+.footer-content {
+  background-image: url("https://trendykits.com/wp-content/uploads/2020/09/Books-Thumbnail.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.footer {
+  ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0x;
+  }
+
+  li {
+    padding-bottom: 10px;
+  }
+
+  a {
+    color:rgb(19, 17, 17);
+    text-decoration: none;
+  }
+
+  .social-media {
+    color: rgb(241, 236, 236);
+    height: 175px;
+    @include flexbox(column, nowrap, flex-end, stretch, stretch);
+
+    ul {
+      padding: 0px;
+      margin: 0px;
+      
+    }
+
+    li {
+      list-style-type: none;
+      display: inline-block;
+    }
+
+    i.fab {
+      display: block;
+      width: 24px;
+      height: 24px;
+      text-align: center;
+      line-height: 24px;
+      border-radius: 50%;
+      color: white;
+      border: 2px solid #dc10fc;
+    }
+  }
+}
+

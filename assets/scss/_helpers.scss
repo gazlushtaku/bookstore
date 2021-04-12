@@ -1,0 +1,156 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+@for $i from 1 through 8 {
+  .px-#{$i} {
+    padding-left: #{$i * 10}px;
+    padding-right: #{$i * 10}px;
+  }
+
+  .py-#{$i} {
+    padding-top: #{$i * 10}px;
+    padding-bottom: #{$i * 10}px;
+  }
+
+  .mx-#{$i} {
+    margin-left: #{$i * 10}px;
+    margin-right: #{$i * 10}px;
+  }
+
+  .my-#{$i} {
+    margin-top: #{$i * 10}px;
+    margin-bottom: #{$i * 10}px;
+  }
+
+  .mr-#{$i} {
+    margin-right: #{$i * 10}px;
+  }
+
+  .mt-#{$i} {
+    margin-top: #{$i * 10}px !important;
+  }
+
+  .border-#{$i} {
+    border-radius: #{$i * 10}px;
+  }
+
+  .p-#{$i} {
+    padding: #{$i * 10}px;
+  }
+
+  .pt-#{$i} {
+    padding-top: #{$i * 10}px;
+  }
+
+  .pb-#{$i} {
+    padding-bottom: #{$i * 10}px !important;
+  }
+
+  .pr-#{$i} {
+    padding-right: #{$i * 10}px;
+  }
+
+  .m-#{$i} {
+    margin: #{$i * 10}px;
+  }
+
+  .mt-#{$i} {
+    margin-top: #{$i * 10}px;
+  }
+}
+
+@for $i from 0 through 5 {
+  .p-#{$i} {
+    padding: #{$i * 10}px;
+  }
+
+  .m-#{$i} {
+    margin: #{$i * 10}px;
+  }
+}
+
+.decoration-none {
+  text-decoration: none;
+}
+
+.decoration-underline {
+  text-decoration: underline;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.img-fluid {
+  display: block;
+  width: 100%;
+}
+
+section {
+  clear: both;
+  overflow: auto;
+}
+
+.w-50 {
+  width: 50%;
+  margin: 0px auto;
+}
+
+.box-shadow {
+  box-shadow: 0px 3px 15px 0px rgba(148, 142, 142, 0.63);
+  -webkit-box-shadow: 0px 3px 15px 0px rgba(148, 142, 142, 0.63);
+  -moz-box-shadow: 0px 3px 15px 0px rgba(148, 142, 142, 0.63);
+}
+
+.w-42 {
+  height: 42px;
+}
+
+.float-right {
+  position: relative;
+  float: right;
+}
+
+.border-bottom-5 {
+  border-bottom: 5px solid #c86dd7;
+}
+
+.border-top-1 {
+  border-top: 1px solid #c1c1c1;
+}
+
+.form-control {
+  width: 250px;
+  padding: 8px 25px 8px 10px;
+  border-radius: 3px;
+  border: 1px solid rgb(130, 130, 130);
+}

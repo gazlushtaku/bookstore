@@ -1,0 +1,53 @@
+$bg-yellow: #ffc300;
+$bg-pink: #c86dd7;
+$light-pink: #fdf2ff;
+$dark-blue: #3023ae;
+
+.bg-yellow {
+  background-color: $bg-yellow;
+}
+
+.bg-pink {
+  background-color: $bg-pink;
+}
+
+.bg-light-pink {
+  background-color: $light-pink;
+}
+
+.white {
+  color: #fff;
+}
+
+.black {
+  color: #000;
+}
+
+.dark-blue {
+  background-color: $dark-blue;
+}
+
+.bg-white {
+  background-color: rgba(179, 180, 154, 0.308);
+}
+
+
+.bg-pinkk {
+  background-color: rgba(255, 244, 247, 0.897);
+}
+
+.bg-purple {
+  background-color: rgba(49, 112, 141, 0.377) ;
+}
+.bg-black {
+  background-color: rgba(32, 196, 27, 0.034) ;
+}
+
+
+.bg-lightt {
+  background-color: rgba(176, 219, 141, 0.144);
+}
+
+.light-black {
+  color: rgb(124, 124, 124) !important;
+}

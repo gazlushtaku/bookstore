@@ -1,0 +1,16 @@
+.btn {
+  color: #fff !important;
+  border-radius: 20px;
+  padding: 8px 25px;
+  transition: all 0.2s ease-in-out;
+  border: 0px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.outline-white {
+  border: 1px solid #fff;
+}
